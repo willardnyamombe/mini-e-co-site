@@ -13,7 +13,7 @@ export default defineConfig({
         about: resolve(__dirname, "src/about.html"),
         contact: resolve(__dirname, "src/contact.html"),
         cart: resolve(__dirname, "src/cart/index.html"),
-        checkout: resolve(__dirname, "src/checkout/index.html")
+        checkout: resolve(__dirname, "src/checkout/index.html"),
         // product1: resolve(
         //   __dirname,
         //   "src/product_pages/cedar-ridge-rimrock-2.html"
