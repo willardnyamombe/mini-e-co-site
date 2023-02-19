@@ -1,0 +1,30 @@
+[
+{
+    "id": 6,
+    "name": "Samsung Galaxy Note 20 5G Factory Unlocked Android Cell Phone, US Version, 128GB of Storage",
+    "image": "images/indexprods/productf.jpg",
+    "description": "Samsung Factory Unlocked Android Cell Phone",
+    "price": 59.99
+  },
+  {
+    "id": 7,
+    "name": "Samsung Galaxy Note 20 5G Factory Unlocked Android Cell Phone, US Version, 128GB of Storage",
+    "image": "images/indexprods/productg.jpg",
+    "description": "Samsung Factory Unlocked Android Cell Phone",
+    "price": 69.99
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy Note 20 5G Factory Unlocked Android Cell Phone, US Version, 128GB of Storage",
+    "image": "images/indexprods/producth.jpg",
+    "description": "Samsung Factory Unlocked Android Cell Phone",
+    "price": 79.99
+  },
+  {
+    "id": 9,
+    "name": "Samsung Galaxy Note 20 5G Factory Unlocked Android Cell Phone, US Version, 128GB of Storage",
+    "image": "images/indexprods/producti.jpg",
+    "description": "Samsung Factory Unlocked Android Cell Phone",
+    "price": 79.99
+  }
+]
