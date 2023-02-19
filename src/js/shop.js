@@ -27,14 +27,13 @@
 
 // fetchProducts();
 
-
 // Option 2
 
-fetch("src/json/products.json")
-  .then(response => response.json())
-  .then(data => {
+fetch("json/products.json")
+  .then((response) => response.json())
+  .then((data) => {
     let output = "";
-    data.forEach(function(item) {
+    data.forEach(function (item) {
       output += `
         <div class="product">
           <img src="${item.image}" alt="${item.name}">
@@ -46,6 +45,6 @@ fetch("src/json/products.json")
     });
     document.querySelector("#products").innerHTML = output;
   })
-  .catch(error => {
+  .catch((error) => {
     console.error("Error fetching products", error);
   });
