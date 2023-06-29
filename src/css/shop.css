@@ -3,37 +3,50 @@ body {
   margin: 0;
   padding: 0;
 }
+/* Reset styles */
+html,
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
 
-header {
-  background-color: lightblue;
-  padding: 20px;
-  text-align: center;
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  /* font-size: 16px;
+    line-height: 1.5; */
+  margin: 0;
+  padding: 0;
 }
 
 header h1 {
   margin: 0;
 }
 
-nav {
-  background-color: lightgray;
+header {
+  background-color: lightblue;
+  color: #fff;
   display: flex;
-  justify-content: center;
-  padding: 10px;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 
-nav ul {
+header nav ul {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-nav a {
+header nav ul li a {
   color: black;
-  display: block;
-  padding: 10px 20px;
   text-decoration: none;
+  margin-right: 10px;
 }
+
 nav a:hover {
   background-color: #333;
   color: #fff;
